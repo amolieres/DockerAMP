@@ -13,3 +13,5 @@ services:
         image: php:7.1-apache
         ports:
             - 80:80
+        volumes:
+            - ./www:/var/www
